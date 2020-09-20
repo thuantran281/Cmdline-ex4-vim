@@ -1,0 +1,10 @@
+What are "insert mode" and "command mode"?
+"Insert mode" is where user can insert the text. 
+"Command mode" is where user can move around the file, delete text, etc.
+
+How can you switch between then?
+From insert mode to command mode use the escape key (Esc).
+From command mode to insert mode type a/A/i/I/o/O.
+
+How can you close vim?
+type q! to quit without warning or q to quit with a warning if a modified file has not been saved
